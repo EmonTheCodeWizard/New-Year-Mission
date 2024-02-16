@@ -174,3 +174,103 @@
 .locationText button:hover {
     background-color: rgb(218, 128, 106);
 }
+
+/* Coming Soon Section */
+
+.comingSoonImg {
+    border: 15px solid red;
+    padding: 45px;
+    border-radius: 50%;
+}
+.sectionComingSoon{
+    
+}
+.coming-soon {
+    margin-top: 120px;
+    width: 90%;
+    height: auto;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.text-div {
+    margin-top: 104px;
+    width: 25%;
+    margin-left: 170px;
+}
+.text-1{
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: -10px;
+}
+.text-2{
+    font-size: 48px;
+    font-weight: 900;
+}
+.text-3 {
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(7, 2, 17, 0.6);
+    margin-top: -20px;
+}
+.soon2024 {
+    width: 20%;
+    margin-top: 112px;
+}
+.newYearImg{
+    margin-top: 72px;
+}
+.holiday{
+    text-align: center;
+    border: 2px solid red;
+    width: 70%;
+    margin: 120px auto 0;
+}
+.holiday h3 {
+    font-size: 24px;
+    font-weight: 500;
+}
+.holiday h2 {
+    margin-top: -10px;
+    font-size: 68px;
+    font-weight: 900;
+}
+.holiday p {
+    font-size: 20px;
+    font-weight: 500;
+    width: 70%;
+    margin-top: -20px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgba(7, 2, 17, 0.6);
+}
+
+.holidayImg {
+    width: 80%;
+    height: auto;
+    margin: -250px auto 0 auto;
+}
+.img-1 {
+    width: 50%;
+    position: relative;
+    top: 530px;
+    left: 50px;
+    bottom: 84px;
+}
+
+.img-2 {
+    width: 100%;
+    height: 230px;
+}
+.img-3 {
+    position: relative;
+    left: 145px;
+    top: 310px;
+    width: 40%;
+}
+.img-4 {
+    position: relative;
+    left: 720px;
+    bottom: 40px;
+}
