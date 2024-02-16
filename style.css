@@ -1,0 +1,176 @@
+*{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.bannerCard {
+    position: relative;
+    text-align: center;
+}
+
+.imageContainer {
+    position: relative;
+    display: inline-block;
+}
+
+.imageContainer img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.gradientOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.5) 100%);
+}
+
+.bannerText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    padding: 10px;
+}
+
+.bannerText h2 {
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.bannerText h3 {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+#dealSection {
+    margin-top: 120px;
+    text-align: center;
+}
+#dealSection h1 {
+    font-size: 88px;
+    font-weight: 700;
+}
+#dealSection h2 {
+    margin-top: -10px;
+    font-size: 48px;
+    font-weight: 700;
+}
+#dealSection h3 {
+    font-size: 24px;
+    font-weight: 500;
+}
+#dealSection img {
+    margin-top: 48px;
+}
+
+.crimsonRed{
+    color: rgb(255, 000, 000);
+}
+
+/* Greet Section */
+
+.greetCard {
+    position: relative;
+    text-align: center;
+    margin-top: 120px;
+}
+.greetImageContainer {
+    position: relative;
+    display: inline-block;
+}
+
+.greetImageContainer img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.greetGradientOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.5) 100%);
+}
+
+.greetBannerText {
+    text-align: left;
+    position: absolute;
+    /* margin-right: 80px; */
+    top: 50%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    padding: 10px;
+}
+
+.greetBannerText h1 {
+    font-size: 64px;
+    font-weight: 900;
+}
+
+.greetBannerText p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.greetBannerText .btn {
+    font-size: 20px;
+    font-weight: 700;
+    background: none;
+    border: none;
+    color: #fff;
+    margin-top: 48px;
+    margin-left: 32px;
+}
+.greetBannerText .btn:hover {
+    color: #ff8000; /* Set text color */
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* location section */
+
+.locationCard {
+    position: relative;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.locationText {
+    text-align: center;
+    position: absolute;
+    /* margin-right: 80px; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    padding: 10px;
+}
+
+.locationText h3 {
+    font-size: 32px;
+    font-weight: 600;
+    color: black;
+}
+
+.locationText button {
+    background-color: rgb(255, 0, 0);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 32px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.locationText button:hover {
+    background-color: rgb(218, 128, 106);
+}
