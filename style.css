@@ -182,9 +182,7 @@
     padding: 45px;
     border-radius: 50%;
 }
-.sectionComingSoon{
-    
-}
+
 .coming-soon {
     margin-top: 120px;
     width: 90%;
@@ -274,3 +272,88 @@
     left: 720px;
     bottom: 40px;
 }
+
+/* Portfolio Section */
+.portfolioSection {
+    margin: 120px auto auto;
+    width: 80%;
+
+}
+
+.portfolioSection h3 {
+    font-size: 24px;
+    font-weight: 500;
+}
+.portfolioSection h2 {
+    margin-top: -10px;
+    font-size: 48px;
+    font-weight: 900;
+}
+.portfolioSection p {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: -20px;
+    color: rgba(7, 2, 17, 0.6);
+}
+.portfolioGallery {
+    margin-top: 48px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+}
+
+/* news Letter Section */
+.newsLetterDiv {
+    text-align: center;
+    margin: 120px auto auto auto;
+    width: 80%;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+
+.newsLetterDiv img {
+    margin: 80px 212px;
+}
+.newsLetterDiv h2 {
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: -60px;
+}
+.newsLetterDiv p {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: -20px;
+    color: rgba(7, 2, 17, 0.6);
+} 
+
+.userInput {
+    margin-top: 48px;
+    padding-bottom: 80px;
+}
+.userInput input {
+    border-radius: 40px 0 0 40px;
+    width: 350px;
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+    background: #fff;
+    padding: 25px 0px 25px 25px;
+}
+.userInput button {
+    width: 180px;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 0px 50px 50px 0px;
+    background: rgb(255, 0, 0);
+    padding: 25px 0px 25px 0px;
+}
+
+.userInput button:hover {
+    color: black;
+    background: #e0b4b5 ;
+    transition: color 0.3s;
+    transition: background 0.3s;
+}
+
