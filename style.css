@@ -221,7 +221,6 @@
 }
 .holiday{
     text-align: center;
-    border: 2px solid red;
     width: 70%;
     margin: 120px auto 0;
 }
@@ -357,3 +356,70 @@
     transition: background 0.3s;
 }
 
+.footerSection {
+    background: rgb(7, 2, 17);
+    width: 100%;
+    height: auto;
+    margin-top: 120px;
+    
+}
+.address {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+}
+
+.address p {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+#phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 110px;
+    padding: 0;
+}
+#website {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -45px;
+    padding: 0;
+}
+#street{
+    margin-top: 120px;
+}
+
+#phone img{
+    margin-right: 12px;
+}
+#website img {
+    margin-right: 12px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin: 60px auto;
+}
+.footerSection hr {
+    width: 80%;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+.copyrightSection {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    width: 80%;
+    margin: auto;
+}
+.copyrightSection p {
+    margin-top: 50px;
+    margin-bottom: 120px;
+}
